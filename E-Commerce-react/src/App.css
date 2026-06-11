@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card,
+.featured-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 0 10px gray;
+}
+
+.card img,
+.featured-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: darkgreen;
+}
