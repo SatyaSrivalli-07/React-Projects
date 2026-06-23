@@ -1,0 +1,39 @@
+.container {
+  width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  width: 180px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.section {
+  margin-top: 25px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
